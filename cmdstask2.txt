@@ -1,22 +1,59 @@
-    1  pwd
-    2  echo -e Luis Gerardo Becerra Brites\n139891 > identificacao.tx
-    3  git add identificacao.txt
-    4  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
-    5  git push
-    6  mv identificacao.tx identificacao.txt
-    7  git add identificacao.txt
-    8  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
-    9  git push
-   10  mkdir A139891
-   11  pwd
-   12  cd A139891
-   13  pwd
-   14  echo "Teste de LI 2026/2027" > README.md
-   15  cd . .
-   16  cd
-   17  pwd
-   18  history > cmdstask2.txt
-   19  git add A139891/README.md cmdstask2.tx
-   20  cd /workspaces/LABINFO-03-26-27
-   21  pwd
-   22  history > cmdstask2.txt
+Tarefa 1 
+pwd
+echo -e Luis Gerardo Becerra Brites\n139891 > identificacao.txt
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push
+
+Tarefa 2 
+mkdir A139891
+cd A139891
+pwd
+echo "Teste de LI 2026/2027" > README.md
+cd /workspaces/LABINFO-03-26-27
+pwd
+history > cmdstask2.txt
+git add A139891/README.md cmdstask2.txt
+git commit -m "2.ª tarefa concluída"
+git push
+
+ Tarefa 3 
+cd ~/Documents
+git clone https://github.com/luis-bot-sbg/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+code .
+mv index.html. index.html
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push
+
+     Tarefa 4
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+
+Tarefa 5 (GitHub Codespaces)
+git pull origin main
+cp index.html disciplina.html
+git add disciplina.html
+git commit -m "Cria disciplina.html a partir de index.html"
+git push origin main
+
+ Tarefa 5 (Computador)
+git pull
+git add disciplina.html
+git commit -m "5.ª tarefa cumprida"
+git push
+
+ Tarefa 6 
+history > meusComandosCodespace.txt
+cat meusComandosCodespace.txt
+git add meusComandosCodespace.txt A-139891-notas.txt
+git commit -m "Tarefa 6: regista o histórico do Codespace"
+git push origin main
+
+fc -l 1 > meusComandosLocais.txt
+cat meusComandosLocais.txt
+git add A-139891-notas.txt meusComandosLocais.txt
+git commit -m "Tarefa 6 cumprida"
+git push
