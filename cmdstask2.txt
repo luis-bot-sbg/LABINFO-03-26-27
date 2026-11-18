@@ -1,0 +1,22 @@
+    1  pwd
+    2  echo -e Luis Gerardo Becerra Brites\n139891 > identificacao.tx
+    3  git add identificacao.txt
+    4  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    5  git push
+    6  mv identificacao.tx identificacao.txt
+    7  git add identificacao.txt
+    8  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    9  git push
+   10  mkdir A139891
+   11  pwd
+   12  cd A139891
+   13  pwd
+   14  echo "Teste de LI 2026/2027" > README.md
+   15  cd . .
+   16  cd
+   17  pwd
+   18  history > cmdstask2.txt
+   19  git add A139891/README.md cmdstask2.tx
+   20  cd /workspaces/LABINFO-03-26-27
+   21  pwd
+   22  history > cmdstask2.txt
